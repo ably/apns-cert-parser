@@ -1,0 +1,16 @@
+{
+  "name": "apns-cert-parser",
+  "version": "1.0.0",
+  "description": "Parser to extract Bundle Identifiers from APNS certificates",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodeunit test/all.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "asn1js": "^2.0.21",
+    "pem-file": "^1.0.0",
+    "pkijs": "^2.1.67"
+  }
+}
